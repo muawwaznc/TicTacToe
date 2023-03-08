@@ -1,0 +1,137 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom right, #ff1cbc 0%, #33ccff 100%);
+    background-attachment: fixed;
+    overflow: hidden;
+
+    user-select: none; /* supported by Chrome and Opera */
+   -webkit-user-select: none; /* Safari */
+   -khtml-user-select: none; /* Konqueror HTML */
+   -moz-user-select: none; /* Firefox */
+   -ms-user-select: none; /* Internet Explorer/Edge */
+}
+.body{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.game-area{
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    border: 0.2rem solid #fff;
+    border-radius: 2rem;
+    padding: 0.5em;
+    box-shadow: 0 0 .2rem #fff,
+                0 0 .2rem #fff,
+                0 0 2rem #bc13fe,
+                0 0 0.8rem #bc13fe,
+                0 0 2.8rem #bc13fe,
+                inset 0 0 1.3rem #bc13fe;
+}
+
+.button{
+    width: 100px;
+    height: 100px;
+    margin: auto;    
+    padding: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bolder;    
+    cursor: pointer;
+}
+.button:hover{
+    background-color: #bb13fe18;
+    border-radius: 2rem;    
+}
+.btn-row{
+    display: flex;
+}
+img{
+    height: 100vh;
+    margin-right: auto;
+    border-radius: 0.5rem;
+}
+.alert-box{
+    margin: 30vh auto;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 40%;
+    height: 30vh;
+    background-color: #fff;
+    border: 0.2rem solid #fff;
+    border-radius: 2rem;
+    padding: 0.5em;
+    box-shadow: 0 0 .2rem #fff,
+                0 0 .2rem #fff,
+                0 0 2rem #bc13fe,
+                0 0 0.8rem #bc13fe,
+                0 0 2.8rem #bc13fe,
+                inset 0 0 1.3rem #bc13fe;
+}
+.alert-box b{
+    font-size: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    margin-top: 45px;
+    color: rgb(253, 0, 161);
+}
+.alert-box button{
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    margin-bottom: 10px;
+    border-radius: 3rem;
+    color: rgb(253, 0, 161);
+    border: rgb(253, 0, 161) solid 2px;
+    padding: 12px;
+    background-color: transparent;
+    cursor: pointer;
+}
+.alert-box button a{
+    text-decoration: none;
+    color: rgb(253, 0, 161);
+}
+.alert-box button:hover{
+    border: rgb(253, 0, 160, 0.5) solid 3px;
+    background-color: #bcbcbc2a;
+}
+
+.blur{
+    filter: blur(0px);
+}
+.player-selection{
+    width: 300px;
+    filter:none;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+}
+.player-selection button{
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    margin-bottom: 10px;
+    border-radius: 3rem;
+    color: rgb(253, 0, 161);
+    border: rgb(253, 0, 161) solid 2px;
+    padding: 12px;
+    background-color: transparent;
+    cursor: pointer;
+}
+.player-selection button a{
+    color: rgb(253, 0, 161);
+    text-decoration: none;
+}
+.player-selection button:hover{
+    background-color: #bcbcbc73;
+}
